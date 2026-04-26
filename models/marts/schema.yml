@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: mart_mrr_by_use_case
+    description: "Final MRR mart. One row per calendar month per school use case per customer country. Revenue is amortized proportionally from invoices across their billing periods, meaning a single invoice may contribute to multiple months. Credit notes reduce MRR in the months they cover. This is the primary reporting table for leadership tracking of Monthly Recurring Revenue."
+    columns:
+      - name: month
+        description: "First day of the calendar month."
+        tests:
+          - not_null
+      - name: use_case
+        description: "School use case category — the primary business dimension for MRR reporting."
+        tests:
+          - not_null
+      - name: country
+        description: "Country of the customer entity."
+        tests:
+          - not_null
+      - name: mrr_usd
+        description: "Monthly Recurring Revenue in USD for this use case and country in this month. Amortized proportionally from invoice billing periods. Includes the net effect of any credit notes."
+        tests:
+          - not_null

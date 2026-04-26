@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: int_invoice_amortized
+    description: "Amortizes each invoice's amount proportionally across the calendar months it spans. A $1,200 annual invoice is split into 12 monthly contributions based on the actual number of days each month overlaps with the billing period. Credit notes (negative amounts) are treated identically — they reduce MRR proportionally across their billing period. This model is the grain: one row per invoice per calendar month it overlaps with."
+    columns:
+      - name: month
+        description: "First day of the calendar month this amortized slice belongs to."
+      - name: invoice_id
+        description: "The source invoice being amortized."
+      - name: country
+        description: "Country of the customer associated with this invoice."
+      - name: use_case
+        description: "School use case associated with this invoice's subscription."
+      - name: billing_days
+        description: "Total number of days in the invoice's billing period. Used as the denominator in the amortization fraction."
+      - name: days_in_month
+        description: "Number of days this invoice overlaps with the calendar month. Used as the numerator in the amortization fraction."
+      - name: mrr_usd
+        description: "Proportional revenue attributed to this month: amount_usd * (days_in_month / billing_days)."

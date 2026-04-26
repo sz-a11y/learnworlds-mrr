@@ -1,0 +1,127 @@
+version: 2
+
+sources:
+  - name: learnworlds
+    description: "Raw seed tables representing the core transactional and dimensional data of the LearnWorlds SaaS platform."
+    schema: public
+    tables:
+      - name: invoices
+        description: "One row per invoice issued to a customer. Contains both regular invoices and credit notes (negative amounts) representing mid-term subscription adjustments."
+      - name: customers
+        description: "One row per customer account. Customers are the billing entities that purchase subscriptions."
+      - name: products
+        description: "One row per product offered. Defines the billing frequency (monthly, quarterly, annual) for each product tier."
+      - name: subscriptions
+        description: "One row per subscription. Links customers to schools and tracks subscription status and billing period."
+      - name: schools
+        description: "One row per school on the platform. Schools are categorised by use case which is the primary dimension for MRR reporting."
+
+models:
+  - name: stg_invoices
+    description: "Staged invoices with correct data types applied. Includes both regular invoices and credit notes — negative amounts are retained and handled in the amortization layer."
+    columns:
+      - name: invoice_id
+        description: "Primary key of the invoices table."
+        tests:
+          - unique
+          - not_null
+      - name: amount_usd
+        description: "Invoice amount in USD. Negative values represent credit notes for mid-term subscription adjustments."
+        tests:
+          - not_null
+      - name: billing_start_date
+        description: "Start date of the billing period this invoice covers."
+        tests:
+          - not_null
+      - name: billing_end_date
+        description: "End date of the billing period this invoice covers."
+        tests:
+          - not_null
+      - name: customer_id
+        description: "Foreign key to stg_customers."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: subscription_id
+        description: "Foreign key to stg_subscriptions."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_subscriptions')
+              field: subscription_id
+      - name: product_id
+        description: "Foreign key to stg_products."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_products')
+              field: product_id
+
+  - name: stg_customers
+    description: "Staged customer accounts with one row per customer. Customers are the billing entities linked to invoices."
+    columns:
+      - name: customer_id
+        description: "Primary key of the customers table."
+        tests:
+          - unique
+          - not_null
+      - name: country
+        description: "Country of the customer entity. Used as a reporting dimension in the MRR mart."
+        tests:
+          - not_null
+      - name: default_billing_method
+        description: "Default payment method for this customer."
+        tests:
+          - accepted_values:
+              values: ['credit_card', 'debit_card', 'wire']
+
+  - name: stg_products
+    description: "Staged product definitions. Each product has a billing frequency that determines how invoices are issued."
+    columns:
+      - name: product_id
+        description: "Primary key of the products table."
+        tests:
+          - unique
+          - not_null
+      - name: billing_frequency
+        description: "How often this product is billed. Drives the expected billing period length."
+        tests:
+          - accepted_values:
+              values: ['monthly', 'quarterly', 'annual']
+
+  - name: stg_subscriptions
+    description: "Staged subscriptions linking customers to schools. Status reflects current state — cancelled subscriptions are retained as they carry historical invoice revenue."
+    columns:
+      - name: subscription_id
+        description: "Primary key of the subscriptions table."
+        tests:
+          - unique
+          - not_null
+      - name: school_id
+        description: "Foreign key to stg_schools."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_schools')
+              field: school_id
+      - name: status
+        description: "Current subscription status. Both active and cancelled subscriptions are included in MRR since cancelled subscriptions still generated revenue during their active billing periods."
+        tests:
+          - accepted_values:
+              values: ['active', 'cancelled']
+
+  - name: stg_schools
+    description: "Staged school entities. Each school belongs to a use case which is the primary dimension for MRR reporting."
+    columns:
+      - name: school_id
+        description: "Primary key of the schools table."
+        tests:
+          - unique
+          - not_null
+      - name: use_case
+        description: "Business use case category of the school. One of five values: b2b_course_sellers, b2c_course_sellers, customer_training, corporate_training, government_ngos."
+        tests:
+          - accepted_values:
+              values: ['b2b_course_sellers', 'b2c_course_sellers', 'customer_training', 'corporate_training', 'government_ngos']

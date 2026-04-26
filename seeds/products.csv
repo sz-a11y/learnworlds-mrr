@@ -1,0 +1,10 @@
+product_id,product_name,billing_frequency
+prod_001,Starter Monthly,monthly
+prod_002,Starter Quarterly,quarterly
+prod_003,Starter Annual,annual
+prod_004,Pro Monthly,monthly
+prod_005,Pro Quarterly,quarterly
+prod_006,Pro Annual,annual
+prod_007,Learning Center Monthly,monthly
+prod_008,Learning Center Quarterly,quarterly
+prod_009,Learning Center Annual,annual

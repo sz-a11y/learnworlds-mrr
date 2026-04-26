@@ -1,0 +1,293 @@
+customer_id,company_name,country,default_billing_method
+cust_00001,Digital Education,Canada,credit_card
+cust_00002,Smart Skills,Brazil,credit_card
+cust_00003,Future Training,France,credit_card
+cust_00004,Modern Talent,Brazil,debit_card
+cust_00005,Advanced Growth,United States,credit_card
+cust_00006,Premier Academy,Australia,credit_card
+cust_00007,Elite Institute,Australia,wire
+cust_00008,Dynamic Solutions,Brazil,credit_card
+cust_00009,Agile Ventures,India,debit_card
+cust_00010,Innovative Pathways,France,debit_card
+cust_00011,Bright Labs,Netherlands,debit_card
+cust_00012,Apex Learning,Australia,debit_card
+cust_00013,Nexus Education,United Kingdom,wire
+cust_00014,Lumina Skills,Spain,debit_card
+cust_00015,Global Training,Brazil,credit_card
+cust_00016,Digital Talent,France,credit_card
+cust_00017,Smart Growth,India,wire
+cust_00018,Future Academy,Spain,credit_card
+cust_00019,Modern Institute,Brazil,debit_card
+cust_00020,Advanced Solutions,Australia,credit_card
+cust_00021,Premier Ventures,United States,credit_card
+cust_00022,Elite Pathways,Netherlands,wire
+cust_00023,Dynamic Labs,Spain,wire
+cust_00024,Agile Learning,United States,wire
+cust_00025,Innovative Education,Canada,wire
+cust_00026,Bright Skills,Spain,credit_card
+cust_00027,Apex Training,Brazil,credit_card
+cust_00028,Nexus Talent,France,credit_card
+cust_00029,Lumina Growth,Brazil,credit_card
+cust_00030,Global Academy,Australia,debit_card
+cust_00031,Digital Institute,United Kingdom,credit_card
+cust_00032,Smart Solutions,Brazil,credit_card
+cust_00033,Future Ventures,Germany,debit_card
+cust_00034,Modern Pathways,France,wire
+cust_00035,Advanced Labs,Australia,debit_card
+cust_00036,Premier Learning,United Kingdom,debit_card
+cust_00037,Elite Education,France,credit_card
+cust_00038,Dynamic Skills,United Kingdom,credit_card
+cust_00039,Agile Training,Spain,credit_card
+cust_00040,Innovative Talent,India,wire
+cust_00041,Bright Growth,Netherlands,credit_card
+cust_00042,Apex Academy,Netherlands,debit_card
+cust_00043,Nexus Institute,United Kingdom,credit_card
+cust_00044,Lumina Solutions,United Kingdom,credit_card
+cust_00045,Global Ventures,Netherlands,credit_card
+cust_00046,Digital Pathways,United Kingdom,debit_card
+cust_00047,Smart Labs,Brazil,credit_card
+cust_00048,Future Learning,Germany,debit_card
+cust_00049,Modern Education,United States,credit_card
+cust_00050,Advanced Skills,Spain,debit_card
+cust_00051,Premier Training,Brazil,wire
+cust_00052,Elite Talent,United States,wire
+cust_00053,Dynamic Growth,United States,wire
+cust_00054,Agile Academy,Germany,credit_card
+cust_00055,Innovative Institute,India,credit_card
+cust_00056,Bright Solutions,India,credit_card
+cust_00057,Apex Ventures,Netherlands,wire
+cust_00058,Nexus Pathways,Canada,credit_card
+cust_00059,Lumina Labs,Canada,debit_card
+cust_00060,Global Learning,United States,debit_card
+cust_00061,Digital Education,United Kingdom,wire
+cust_00062,Smart Skills,Australia,credit_card
+cust_00063,Future Training,Brazil,wire
+cust_00064,Modern Talent,Brazil,credit_card
+cust_00065,Advanced Growth,Germany,debit_card
+cust_00066,Premier Academy,Germany,debit_card
+cust_00067,Elite Institute,France,wire
+cust_00068,Dynamic Solutions,United States,credit_card
+cust_00069,Agile Ventures,Australia,credit_card
+cust_00070,Innovative Pathways,Netherlands,wire
+cust_00071,Bright Labs,Germany,wire
+cust_00072,Apex Learning,Germany,debit_card
+cust_00073,Nexus Education,United States,debit_card
+cust_00074,Lumina Skills,Australia,wire
+cust_00075,Global Training,France,credit_card
+cust_00076,Digital Talent,Australia,debit_card
+cust_00077,Smart Growth,United Kingdom,debit_card
+cust_00078,Future Academy,Spain,debit_card
+cust_00079,Modern Institute,France,credit_card
+cust_00080,Advanced Solutions,United Kingdom,debit_card
+cust_00081,Premier Ventures,Brazil,debit_card
+cust_00082,Elite Pathways,Germany,wire
+cust_00083,Dynamic Labs,Australia,wire
+cust_00084,Agile Learning,United Kingdom,debit_card
+cust_00085,Innovative Education,Netherlands,credit_card
+cust_00086,Bright Skills,France,debit_card
+cust_00087,Apex Training,Australia,wire
+cust_00088,Nexus Talent,Canada,wire
+cust_00089,Lumina Growth,Canada,wire
+cust_00090,Global Academy,Netherlands,wire
+cust_00091,Digital Institute,Brazil,credit_card
+cust_00092,Smart Solutions,India,wire
+cust_00093,Future Ventures,France,wire
+cust_00094,Modern Pathways,Germany,wire
+cust_00095,Advanced Labs,India,debit_card
+cust_00096,Premier Learning,Canada,credit_card
+cust_00097,Elite Education,Spain,wire
+cust_00098,Dynamic Skills,India,credit_card
+cust_00099,Agile Training,United States,credit_card
+cust_00100,Innovative Talent,Brazil,debit_card
+cust_00101,Bright Growth,United Kingdom,debit_card
+cust_00102,Apex Academy,Brazil,wire
+cust_00103,Nexus Institute,India,wire
+cust_00104,Lumina Solutions,Spain,credit_card
+cust_00105,Global Ventures,Canada,wire
+cust_00106,Digital Pathways,United Kingdom,wire
+cust_00107,Smart Labs,Brazil,credit_card
+cust_00108,Future Learning,Germany,wire
+cust_00109,Modern Education,Brazil,debit_card
+cust_00110,Advanced Skills,Netherlands,wire
+cust_00111,Premier Training,Netherlands,debit_card
+cust_00112,Elite Talent,Netherlands,debit_card
+cust_00113,Dynamic Growth,India,credit_card
+cust_00114,Agile Academy,United States,debit_card
+cust_00115,Innovative Institute,Germany,debit_card
+cust_00116,Bright Solutions,Netherlands,wire
+cust_00117,Apex Ventures,Netherlands,credit_card
+cust_00118,Nexus Pathways,Australia,credit_card
+cust_00119,Lumina Labs,Netherlands,debit_card
+cust_00120,Global Learning,United States,wire
+cust_00121,Digital Education,France,wire
+cust_00122,Smart Skills,United States,credit_card
+cust_00123,Future Training,France,credit_card
+cust_00124,Modern Talent,France,debit_card
+cust_00125,Advanced Growth,India,wire
+cust_00126,Premier Academy,Canada,credit_card
+cust_00127,Elite Institute,Netherlands,debit_card
+cust_00128,Dynamic Solutions,France,credit_card
+cust_00129,Agile Ventures,United Kingdom,wire
+cust_00130,Innovative Pathways,Australia,credit_card
+cust_00131,Bright Labs,Netherlands,debit_card
+cust_00132,Apex Learning,Spain,wire
+cust_00133,Nexus Education,Canada,wire
+cust_00134,Lumina Skills,India,debit_card
+cust_00135,Global Training,United Kingdom,debit_card
+cust_00136,Digital Talent,India,wire
+cust_00137,Smart Growth,Australia,credit_card
+cust_00138,Future Academy,Australia,debit_card
+cust_00139,Modern Institute,United States,wire
+cust_00140,Advanced Solutions,Spain,wire
+cust_00141,Premier Ventures,Canada,credit_card
+cust_00142,Elite Pathways,Brazil,wire
+cust_00143,Dynamic Labs,Canada,wire
+cust_00144,Agile Learning,Canada,credit_card
+cust_00145,Innovative Education,Spain,debit_card
+cust_00146,Bright Skills,Spain,credit_card
+cust_00147,Apex Training,United States,credit_card
+cust_00148,Nexus Talent,United Kingdom,credit_card
+cust_00149,Lumina Growth,United Kingdom,credit_card
+cust_00150,Global Academy,Spain,debit_card
+cust_00151,Digital Institute,Spain,credit_card
+cust_00152,Smart Solutions,India,wire
+cust_00153,Future Ventures,United Kingdom,wire
+cust_00154,Modern Pathways,India,debit_card
+cust_00155,Advanced Labs,India,wire
+cust_00156,Premier Learning,Canada,wire
+cust_00157,Elite Education,Brazil,credit_card
+cust_00158,Dynamic Skills,United Kingdom,debit_card
+cust_00159,Agile Training,Brazil,debit_card
+cust_00160,Innovative Talent,India,debit_card
+cust_00161,Bright Growth,United Kingdom,debit_card
+cust_00162,Apex Academy,Canada,wire
+cust_00163,Nexus Institute,Spain,credit_card
+cust_00164,Lumina Solutions,India,wire
+cust_00165,Global Ventures,Netherlands,debit_card
+cust_00166,Digital Pathways,France,wire
+cust_00167,Smart Labs,United States,debit_card
+cust_00168,Future Learning,Netherlands,wire
+cust_00169,Modern Education,United Kingdom,debit_card
+cust_00170,Advanced Skills,Spain,wire
+cust_00171,Premier Training,Canada,credit_card
+cust_00172,Elite Talent,United Kingdom,debit_card
+cust_00173,Dynamic Growth,India,credit_card
+cust_00174,Agile Academy,Canada,wire
+cust_00175,Innovative Institute,Canada,wire
+cust_00176,Bright Solutions,Australia,wire
+cust_00177,Apex Ventures,United States,wire
+cust_00178,Nexus Pathways,France,wire
+cust_00179,Lumina Labs,Canada,wire
+cust_00180,Global Learning,United States,debit_card
+cust_00181,Digital Education,Canada,wire
+cust_00182,Smart Skills,United Kingdom,credit_card
+cust_00183,Future Training,Netherlands,wire
+cust_00184,Modern Talent,Canada,wire
+cust_00185,Advanced Growth,Canada,wire
+cust_00186,Premier Academy,United States,debit_card
+cust_00187,Elite Institute,Brazil,credit_card
+cust_00188,Dynamic Solutions,Brazil,debit_card
+cust_00189,Agile Ventures,Netherlands,wire
+cust_00190,Innovative Pathways,Canada,credit_card
+cust_00191,Bright Labs,France,debit_card
+cust_00192,Apex Learning,Australia,credit_card
+cust_00193,Nexus Education,Spain,credit_card
+cust_00194,Lumina Skills,Germany,wire
+cust_00195,Global Training,United States,credit_card
+cust_00196,Digital Talent,India,debit_card
+cust_00197,Smart Growth,Netherlands,wire
+cust_00198,Future Academy,Australia,wire
+cust_00199,Modern Institute,India,credit_card
+cust_00200,Advanced Solutions,United States,credit_card
+cust_00201,Premier Ventures,United Kingdom,debit_card
+cust_00202,Elite Pathways,India,credit_card
+cust_00203,Dynamic Labs,Spain,debit_card
+cust_00204,Agile Learning,Australia,wire
+cust_00205,Innovative Education,Spain,credit_card
+cust_00206,Bright Skills,United Kingdom,wire
+cust_00207,Apex Training,India,wire
+cust_00208,Nexus Talent,Australia,wire
+cust_00209,Lumina Growth,Canada,wire
+cust_00210,Global Academy,France,credit_card
+cust_00211,Digital Institute,Brazil,debit_card
+cust_00212,Smart Solutions,United States,credit_card
+cust_00213,Future Ventures,Australia,credit_card
+cust_00214,Modern Pathways,India,wire
+cust_00215,Advanced Labs,India,credit_card
+cust_00216,Premier Learning,Spain,wire
+cust_00217,Elite Education,Brazil,credit_card
+cust_00218,Dynamic Skills,India,debit_card
+cust_00219,Agile Training,Netherlands,wire
+cust_00220,Innovative Talent,France,credit_card
+cust_00221,Bright Growth,United Kingdom,debit_card
+cust_00222,Apex Academy,Netherlands,debit_card
+cust_00223,Nexus Institute,Germany,wire
+cust_00224,Lumina Solutions,United Kingdom,debit_card
+cust_00225,Global Ventures,Brazil,credit_card
+cust_00226,Digital Pathways,France,debit_card
+cust_00227,Smart Labs,Brazil,wire
+cust_00228,Future Learning,Germany,credit_card
+cust_00229,Modern Education,India,credit_card
+cust_00230,Advanced Skills,Canada,credit_card
+cust_00231,Premier Training,Spain,wire
+cust_00232,Elite Talent,United States,debit_card
+cust_00233,Dynamic Growth,Spain,wire
+cust_00234,Agile Academy,Australia,wire
+cust_00235,Innovative Institute,France,wire
+cust_00236,Bright Solutions,India,credit_card
+cust_00237,Apex Ventures,Netherlands,debit_card
+cust_00238,Nexus Pathways,Australia,credit_card
+cust_00239,Lumina Labs,Australia,credit_card
+cust_00240,Global Learning,Brazil,debit_card
+cust_00241,Digital Education,France,debit_card
+cust_00242,Smart Skills,Germany,credit_card
+cust_00243,Future Training,Brazil,wire
+cust_00244,Modern Talent,India,credit_card
+cust_00245,Advanced Growth,India,credit_card
+cust_00246,Premier Academy,France,debit_card
+cust_00247,Elite Institute,Spain,credit_card
+cust_00248,Dynamic Solutions,Brazil,credit_card
+cust_00249,Agile Ventures,Spain,wire
+cust_00250,Innovative Pathways,France,debit_card
+cust_00251,Bright Labs,Netherlands,wire
+cust_00252,Apex Learning,Australia,credit_card
+cust_00253,Nexus Education,Australia,credit_card
+cust_00254,Lumina Skills,Spain,wire
+cust_00255,Global Training,India,credit_card
+cust_00256,Digital Talent,Germany,wire
+cust_00257,Smart Growth,Germany,wire
+cust_00258,Future Academy,Brazil,wire
+cust_00259,Modern Institute,United States,debit_card
+cust_00260,Advanced Solutions,Australia,debit_card
+cust_00261,Premier Ventures,France,wire
+cust_00262,Elite Pathways,Australia,credit_card
+cust_00263,Dynamic Labs,Germany,wire
+cust_00264,Agile Learning,Germany,credit_card
+cust_00265,Innovative Education,United States,debit_card
+cust_00266,Bright Skills,Spain,debit_card
+cust_00267,Apex Training,Netherlands,credit_card
+cust_00268,Nexus Talent,Brazil,debit_card
+cust_00269,Lumina Growth,Canada,debit_card
+cust_00270,Global Academy,Spain,debit_card
+cust_00271,Digital Institute,Australia,wire
+cust_00272,Smart Solutions,United States,credit_card
+cust_00273,Future Ventures,Germany,credit_card
+cust_00274,Modern Pathways,Spain,credit_card
+cust_00275,Advanced Labs,Canada,debit_card
+cust_00276,Premier Learning,Spain,credit_card
+cust_00277,Elite Education,Germany,wire
+cust_00278,Dynamic Skills,Australia,wire
+cust_00279,Agile Training,Canada,debit_card
+cust_00280,Innovative Talent,Germany,debit_card
+cust_00281,Bright Growth,Germany,credit_card
+cust_00282,Apex Academy,Australia,debit_card
+cust_00283,Nexus Institute,United Kingdom,debit_card
+cust_00284,Lumina Solutions,France,debit_card
+cust_00285,Global Ventures,Canada,credit_card
+cust_00286,Digital Pathways,India,wire
+cust_00287,Smart Labs,India,credit_card
+cust_00288,Future Learning,India,debit_card
+cust_00289,Modern Education,United Kingdom,credit_card
+cust_00290,Advanced Skills,India,debit_card
+cust_00291,Premier Training,Brazil,debit_card
+cust_00292,Elite Talent,Netherlands,debit_card
