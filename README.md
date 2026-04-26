@@ -150,7 +150,8 @@ This test provides mathematical proof that no revenue is created or lost in the 
 
 ## Exploratory Data Analysis
 
-File EDA.sql under exports folder 
+*File EDA.sql under exports folder 
+
 Key findings from EDA conducted before model development:
 
 - 2,441 total invoices, 170 of which are credit notes (negative amounts)
